@@ -53,19 +53,22 @@ public class rect implements Shape2d
 
 	//Returns area
 	@Override
-	public double getArea() {
+	public double getArea() 
+	{
 		return width * height;
 	}
 
 	//Returns enum type
 	@Override
-	public s_shape getType() {
+	public s_shape getType() 
+	{
 		return type;
 		
 	}
 	//Prints information
 	@Override
-	public void printInformation() {
+	public void printInformation()
+	{
 		System.out.println(getType());
 		System.out.println("Width: " + getUnit(s_unit.WIDTH));
 		System.out.println("Height: " + getUnit(s_unit.HEIGHT));
