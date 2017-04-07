@@ -62,7 +62,8 @@ public class cuboid implements Shape3d
 	}
 
 	@Override
-	public void printInformation() {
+	public void printInformation() 
+	{
 		System.out.println(getType());
 		System.out.println("Length: " + getUnit(s_unit.LENGTH));
 		System.out.println("Width: " + getUnit(s_unit.WIDTH));
