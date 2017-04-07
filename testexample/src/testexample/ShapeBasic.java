@@ -1,13 +1,15 @@
 package testexample;
 
-enum s_unit{
+enum s_unit
+{
 	WIDTH,
 	LENGTH,
 	HEIGHT,
 	RADIUS
 }
 
-enum s_shape{
+enum s_shape
+{
 	RECT,
 	CIRCLE,
 	TRIANGLE,
@@ -19,7 +21,8 @@ enum s_shape{
 	SHAPE
 }
 
-public interface ShapeBasic {
+public interface ShapeBasic
+{
 	 
 	s_shape type = null;
 	public s_shape getType();
