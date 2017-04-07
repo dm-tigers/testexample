@@ -44,9 +44,9 @@ public class rect implements Shape2d
 		switch(unit)
 		{
 			case WIDTH:		width = value; 	
-						break;
+							break;
 			case HEIGHT:	height = value;
-						break;
+							break;
 			default: 		System.out.println("You should not see this.");
 		}//switch
 	}//setUnit
